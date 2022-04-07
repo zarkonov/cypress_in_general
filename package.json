@@ -1,0 +1,23 @@
+{
+  "name": "cypress_assignment",
+  "version": "1.0.0",
+  "description": "cypress automation ",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "test",
+    "automation"
+  ],
+  "author": "ZN",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3",
+    "prettier": "^2.6.2"
+  },
+  "devDependencies": {
+    "cypress-plugin-tab": "^1.0.5"
+  }
+}
