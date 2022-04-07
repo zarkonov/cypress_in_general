@@ -112,20 +112,21 @@ Please make sure to update tests as appropriate.
 This is licence free project.
 
 ## Appendix GIT porcelain commands (to be further updated)
-_git bash here_
-_git init_
-_git add ._
-_git commit -m "initial commit"_                                       
-_git remote add origin https://github.com/zarkonov/cypress_assignment_     - connects local and remote repo
-_git pull origin master_                                                   - pulls master from remote repo and connect it with local master
-_git push origin master_
-_git push --force origin master_
-_git branch name_of_new_branch  _                                          - cretaes a new branch
-_git checkout name_of_branch_                                              - checkout to a different branch
-After the code is changed, or tests are added or modified
-_git add ._                                                                - adds changes to staging area on the local branch
-_git commit -m "3 screenshots added after every test run"_                 - commits changes on the local branch
-_git push --set-upstream origin screenshots_after_test_run_                - hit locally to enable local branch to follow remote branch
-On the Bit bucketu or Githubu click on Git pull request and merge a branch with master
-_git push --set-upstream origin master_                                    - hit locally to enable local master to follow remote master
+git bash here
+git init
+git add .
+git commit -m "initial commit"                                       - 
+git remote add origin https://github.com/zarkonov/cypress_in_general                               - povezuje lokalni repo sa remote repom
+git pull origin master                            - povukao master sa git haba i povezao sa lokalnim repoom
+git push origin master
+git push --force origin master
+git branch screenshots_after_test_run                     - pravi novi branch koji se zove screenshots_after_test_run
+git checkout screenshots_after_test_run                       - prebacimo se na novi branch
+pokrenemo testove ili menjamo kod
+git add .                         - dodaje izmene u staging area na branchyu gde smo
+git commit -m "3 screenshots added after every test run"                         - komitujemo izmene na brancu
+git push --set-upstream origin screenshots_after_test_run            - da pushujemo  branch i postavimo ga na github ili bitbucket (remote)
+Na bit bucketu ili Githubu klikemo na Git pull request i mege brancha sa masterom
+git push --set-upstream origin master                - se izvrsi na nasem racunaru da bi nas master pratio master sa Github-a
+                                - hit locally to enable local master to follow remote master
 
