@@ -113,20 +113,23 @@ This is licence free project.
 
 ## Appendix GIT porcelain commands (to be further updated)
 git bash here
+
 git init
+
 git add .
-git commit -m "initial commit"                                       - 
-git remote add origin https://github.com/zarkonov/cypress_in_general                               - povezuje lokalni repo sa remote repom
-git pull origin master                            - povukao master sa git haba i povezao sa lokalnim repoom
-git push origin master
-git push --force origin master
-git branch screenshots_after_test_run                     - pravi novi branch koji se zove screenshots_after_test_run
-git checkout screenshots_after_test_run                       - prebacimo se na novi branch
-pokrenemo testove ili menjamo kod
-git add .                         - dodaje izmene u staging area na branchyu gde smo
-git commit -m "3 screenshots added after every test run"                         - komitujemo izmene na brancu
-git push --set-upstream origin screenshots_after_test_run            - da pushujemo  branch i postavimo ga na github ili bitbucket (remote)
-Na bit bucketu ili Githubu klikemo na Git pull request i mege brancha sa masterom
-git push --set-upstream origin master                - se izvrsi na nasem racunaru da bi nas master pratio master sa Github-a
-                                - hit locally to enable local master to follow remote master
+git commit -m "initial commit"
+
+git remote add origin https://github.com/zarkonov/cypress_in_general  - connects local and remote repo
+git pull origin master  - pulls remote master and connect with local master repo
+git push origin master  - push local master content to remote master 
+git push --force origin master    - if above recalls the errors - only applicable at the project setup, do not force
+git branch screenshots_after_test_run  - new branch is created screenshots_after_test_run
+git checkout screenshots_after_test_run  - branch chenaged
+change the code and tests, again:
+git add . - adds changes to the staging area of the branch we checkout to
+git commit -m "3 screenshots added after every test run"   - commit changes  
+git push --set-upstream origin screenshots_after_test_run            - push local branch to remote repo and make them to be aligned
+On Bitbucket or Github click Git pull request and merge branch with master
+git push --set-upstream origin master                - runs locally from master branch to follow the remote master branch
+                               
 
