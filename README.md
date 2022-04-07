@@ -116,16 +116,16 @@ _git bash here_
 _git init_
 _git add ._
 _git commit -m "initial commit"_                                       
-_git remote add origin https://github.com/zarkonov/cypress_assignment_                                                                 - connects local and remote repo
-_git pull origin master_                                                                                - pulls master from remote repo and connect it with local master
+_git remote add origin https://github.com/zarkonov/cypress_assignment_     - connects local and remote repo
+_git pull origin master_                                                   - pulls master from remote repo and connect it with local master
 _git push origin master_
 _git push --force origin master_
-_git branch name_of_new_branch  _                                                                                                                 - cretaes a new branch
-_git checkout name_of_branch_                                                                                                           - checkout to a different branch
+_git branch name_of_new_branch  _                                          - cretaes a new branch
+_git checkout name_of_branch_                                              - checkout to a different branch
 After the code is changed, or tests are added or modified
-_git add ._                                                                                                           - adds changes to staging area on the local branch
-_git commit -m "3 screenshots added after every test run"_                                                                         - commits changes on the local branch
-_git push --set-upstream origin screenshots_after_test_run_                                                 - hit locally to enable local branch to follow remote branch
+_git add ._                                                                - adds changes to staging area on the local branch
+_git commit -m "3 screenshots added after every test run"_                 - commits changes on the local branch
+_git push --set-upstream origin screenshots_after_test_run_                - hit locally to enable local branch to follow remote branch
 On the Bit bucketu or Githubu click on Git pull request and merge a branch with master
-_git push --set-upstream origin master_                                                                     - hit locally to enable local master to follow remote master
+_git push --set-upstream origin master_                                    - hit locally to enable local master to follow remote master
 
