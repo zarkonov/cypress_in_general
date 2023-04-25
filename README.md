@@ -49,8 +49,8 @@ and confirm in package.json file, that at its end "prettier" is defined.
 ```bash
 npx cypress open
 ```
-2. After the command is executed, folder cypress is created in the New Cypress project repository.
-3. Within cypress folder  a new file - tscongfig.json should be open and edit.
+2. After the command is executed, folder cypress is created in the new Cypress project repository.
+3. Within Cypress folder  a new file - tscongfig.json should be open and edit.
 4. Add the following content to the opened file tscongfig.json
 ```bash
 {
